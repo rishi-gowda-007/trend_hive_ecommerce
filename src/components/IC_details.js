@@ -4,7 +4,7 @@ import './IC_details.css';
 function IC_details({ sc ,scvisi,setScvisi}) {
 
     if (!sc || !sc.rating) {
-        return <div></div>;
+        return <></>;
     }
 
     const imageStyle = {
