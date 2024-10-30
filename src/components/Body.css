@@ -1,0 +1,25 @@
+#Body_main{
+    max-height: 150vw;
+    min-height: 90vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    #Body_main{
+        max-height: 500vh;
+        min-height: 94vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 600px){
+    #Body_main{
+        max-height: 500vh;
+        min-height: 96vh;
+    }
+}

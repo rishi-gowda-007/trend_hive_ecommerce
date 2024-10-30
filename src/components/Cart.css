@@ -1,0 +1,119 @@
+#cart_main{
+    position: absolute;
+    top: 5vw;
+    left: 0vw;
+    height: 150vw;
+    width: 100vw;
+    z-index: 2;
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2vw;
+}
+#cart_table{
+    width: 80%;
+    max-height: 150vw;
+}
+#img_style  {
+    width: 2vw;
+    height: 4vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+#cart_order_summary{
+    font-size: 3vw;
+    color: rgb(202, 134, 9);
+    text-decoration: underline solid;
+}
+#cart_total_amt{
+    font-size: 1.5vw;
+}
+#cart_not_login{
+    color: red;
+    font-size: 3vw;
+}
+#cart_close_button{
+    width: 5vw;
+    height: 2vw;
+    color: white;
+    background-color: rgb(187, 30, 30);
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    transition: all 0.2s ease-in;
+}
+#cart_close_button:hover{
+    color: white;
+    background-color: rgb(147, 5, 5);
+    border:solid 2px black;
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px){
+    #cart_main{
+        position: absolute;
+        top: 7vw;
+        height: 500vh;
+        width: 100vw;
+        font-size: 1.8vw;
+    }
+    #cart_table{
+        width: 80%;
+        max-height: 150vw;
+    }
+    #img_style  {
+        width: 3vw;
+        height: 6vw;
+    }
+    #cart_order_summary{
+        font-size: 4vw;
+    }
+    #cart_total_amt{
+        font-size: 2vw;
+    }
+    #cart_not_login{
+        font-size: 4vw;
+    }
+    #cart_close_button{
+        width: 8vw;
+        height: 4vw;
+        border-radius: 2vw;
+        font-size: 1.8vw;
+    }
+}
+
+
+@media (max-width: 600px){
+    #cart_main{
+        position: absolute;
+        top: 10vw;
+        height: 500vh;
+        width: 100vw;
+        font-size: 2.2vw;
+    }
+    #cart_table{
+        width: 80%;
+        max-height: 500vh;
+    }
+    #img_style  {
+        width: 4vw;
+        height: 8vw;
+    }
+    #cart_order_summary{
+        font-size: 6vw;
+    }
+    #cart_total_amt{
+        font-size: 3vw;
+    }
+    #cart_not_login{
+        font-size: 6vw;
+    }
+    #cart_close_button{
+        width: 14vw;
+        height: 5vw;
+        border-radius: 5vw;
+        font-size: 2.2vw;
+    }
+}

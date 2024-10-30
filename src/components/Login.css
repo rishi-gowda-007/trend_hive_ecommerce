@@ -1,0 +1,161 @@
+#login_main{
+    height: 25vw;
+    width: 21vw;
+    position: absolute;
+    top: 6vw;
+    right: 2vw;
+    display: none;
+    background-color: orange;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    border-radius: 10px;
+}
+#login_combo{
+    justify-content: space-evenly;
+}
+#login_label{
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+#login_id{
+    height: 2vw;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    padding: 3px;
+}
+#login_button{
+    height: 2vw;
+    width: 30%;
+    margin-top: 1vw;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+}
+#login_p{
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#login_out{
+    height: 2vw;
+    width: 30%;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+#login_close{
+    color: white;
+    border: none;
+    background-color: orange;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    border-bottom: 2px solid white;
+    transition: all 0.2 ease-in;
+}
+
+/* hovering */
+#login_close:hover{
+    color: red;
+}
+#login_out:hover{
+    
+    background-color: red;
+    color: white;
+}
+#login_button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    #login_main{
+        height: 35vw;
+        width: 30vw;
+        top: 8vw;
+        right: 2vw;
+        border-radius: 10px;
+    }
+    #login_label{
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    #login_id{
+        height: 3.5vw;
+        width: 65%;
+        border-radius: 5px;
+        font-size: 1.8vw;
+        padding: 3px;
+    }
+    #login_button{
+        height: 3.5vw;
+        width: 40%;
+        font-size: 1.8vw;
+        padding: 0.5vw;
+    }
+    #login_p{
+        font-size: 3vw;
+    }
+    #login_out{
+        height: 3.5vw;
+        width: 40%;
+        font-size: 1.8vw;
+        padding: 0.5vw;
+    }
+    #login_close{
+        font-size: 2.5vw;
+        border-bottom: 2px solid white;
+    }
+}
+
+@media (max-width: 600px){
+    #login_main{
+        height: 50vw;
+        width: 45vw;
+        position: absolute;
+        top: 11vw;
+        right: 2vw;
+        border-radius: 10px;
+    }
+    #login_label{
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    #login_id{
+        height: 5vw;
+        width: 70%;
+        border-radius: 5px;
+        font-size: 2.2vw;
+        padding: 3px;
+    }
+    #login_button{
+        height: 5vw;
+        width: 50%;
+        font-size: 2.2vw;
+        padding: 1vw;
+    }
+    #login_p{
+        font-size: 5vw;
+    }
+    #login_out{
+        height: 5vw;
+        width: 50%;
+        font-size: 2.2vw;
+        padding: 1vw;
+    }
+    #login_close{
+        font-size: 3vw;
+        border-bottom: 2px solid white;
+    }
+}

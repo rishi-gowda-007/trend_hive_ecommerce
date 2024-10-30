@@ -1,0 +1,117 @@
+#IC_details_main{
+    height: 500vh;
+    width: 100vw;
+    position: absolute;
+    top:0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    z-index: 3;
+}
+#IC_image{
+    margin-top: 2vw;
+    height:30vw;
+    width: 40vw;
+    background-size: contain;
+    display: flex;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#IC_font{
+    display: flex;
+    flex-direction: column;
+    height:30vw;
+    width: 40vw;
+    justify-content: space-around;
+}
+#IC_title{
+    font-size: 1.5vw;
+}
+#Ic_rating{
+    font-size: 1.2vw;
+}
+#Ic_desc{
+    font-size: 1vw;
+}
+#Ic_price{
+    font-size: 2vw;
+}
+#ic_close{
+    height: 3vw;
+    width: 10vw;
+    background-color: white;
+    color: red;
+    transition: all 0.2 ease-in;
+    font-size: 1.2vw;
+    border-radius: 3vw;
+}
+#ic_close:hover{
+    background-color: red;
+    color: white;
+}
+
+@media (min-width: 601px) and (max-width: 1200px){
+    #IC_image{
+        margin-top: 3vw;
+        height:40vw;
+        width: 50vw;
+    }
+    #IC_font{
+        display: flex;
+        flex-direction: column;
+        height:30vw;
+        width: 40vw;
+        justify-content: space-around;
+    }
+    #IC_title{
+        font-size: 3vw;
+    }
+    #Ic_rating{
+        font-size: 1.8vw;
+    }
+    #Ic_desc{
+        font-size: 1.5vw;
+    }
+    #Ic_price{
+        font-size: 4vw;
+    }
+    #ic_close{
+        height: 5vw;
+        width: 15vw;
+        font-size: 1.8vw;
+        border-radius: 5vw;
+        margin-top: 2vw;
+    }
+}
+
+@media (max-width: 600px){
+    #IC_image{
+        margin-top: 4vw;
+        height:70vw;
+        width: 60vw;
+    }
+    #IC_font{
+        height:50vw;
+        width: 70vw;
+    }
+    #IC_title{
+        font-size: 4vw;
+    }
+    #Ic_rating{
+        font-size: 2.2vw;
+    }
+    #Ic_desc{
+        font-size: 2vw;
+    }
+    #Ic_price{
+        font-size: 6vw;
+    }
+    #ic_close{
+        height: 7vw;
+        width: 20vw;
+        font-size: 2.2vw;
+        border-radius: 5vw;
+        margin-top: 2vw;
+    }
+}
