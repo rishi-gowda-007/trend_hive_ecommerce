@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/trend_hive_ecommerce/static/css/main.8d1406c9.css",
+    "main.js": "/trend_hive_ecommerce/static/js/main.3f08130c.js",
+    "static/js/453.0297a6b4.chunk.js": "/trend_hive_ecommerce/static/js/453.0297a6b4.chunk.js",
+    "static/media/logo.png": "/trend_hive_ecommerce/static/media/logo.ce5c31f50dfaaa07444b.png",
+    "index.html": "/trend_hive_ecommerce/index.html",
+    "main.8d1406c9.css.map": "/trend_hive_ecommerce/static/css/main.8d1406c9.css.map",
+    "main.3f08130c.js.map": "/trend_hive_ecommerce/static/js/main.3f08130c.js.map",
+    "453.0297a6b4.chunk.js.map": "/trend_hive_ecommerce/static/js/453.0297a6b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d1406c9.css",
+    "static/js/main.3f08130c.js"
+  ]
+}
